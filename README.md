@@ -19,19 +19,19 @@ Install the `apt-transport-https` package, which allows Plex Server from an HTTP
 sudo apt-get install apt-transport-https
 ```
 
-Add PGP key for the `dev2day` repository because it contains Plex
+Add PGP key for the `plex.tv` repository
 
 ```sh
 curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
 ```
 
-Add the `dev2day` repository to the package source list
+Add the `plex.tv` repository to the package source list
 
 ```sh
 echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
 ```
 
-Update the package list now containing the `dev2day` repository
+Update the package list now containing the `plex.tv` repository
 
 ```sh
 sudo apt-get update
