@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Link
+Name=Plex Media Server
+Icon=plexmediaserver
+URL=/usr/share/applications/plexmediaserver.desktop
